@@ -6,7 +6,7 @@
 window.SITE = {
   name: "Guillem Martínez Aparicio",
   tagline: "Programmer and Designer striving to specialise in cinematics.",
-  about: "Play and responsibility are two sides of the same coin.\nFinding or creating an environment where both are integrated is always my ultimate goal.",
+  about: "Play and responsibility are two sides of the same coin.\n\nFinding or creating an environment where both are integrated is always my ultimate goal.",
   email: "guillem.ma.dev@gmail.com",
   links: [
     { label: "GitHub", url: "https://github.com/GuillemDev" },
@@ -24,7 +24,7 @@ window.PROJECTS = {
     {
       title: "Fable Of The Eclipse",
       subtitle: "Nominee Best Academic Game at Indie Dev Day · Custom Engine · Class Project · 2026",
-      description: "As a class of 15 people and 4 months of development, we created an amazing experience that was nominated at Indie Dev Day 2026 in Barcelona. We considered it a huge win given that we were competing against bigger, more experienced teams, all while being the only ones developing our own engine for the game.",
+      description: "Roles: Producer, Director, Camera Programmer, UI Programmer. \n\nAs a class of 15 people and 4 months of development, we created an amazing experience that was nominated at Indie Dev Day 2026 in Barcelona. We considered it a huge win given that we were competing against bigger, more experienced teams, all while being the only ones developing our own engine for the game.",
       media: { type: "youtube", src: "kG2pwS_ptjM", alt: "Release Trailer Video" },
       link: { label: "Play on itch.io", url: "https://mini-knight-studio.itch.io/fable-of-the-eclipse" }
     },
