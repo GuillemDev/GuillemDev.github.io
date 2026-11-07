@@ -16,25 +16,31 @@ window.PROJECTS = {
     {
       title: "Fable Of The Eclipse",
       subtitle: "Nominee Best Academic Game at Indie Dev Day · Custom Engine · Class Project · 2026",
-      description: "Roles: Producer, Director, Camera Programmer, UI Programmer. \n\nAs a class of 15 people and 4 months of development, we created an amazing experience that was nominated at Indie Dev Day 2026 in Barcelona. We considered it a huge win given that we were competing against bigger, more experienced teams, all while being the only ones developing our own engine for the game.",
+      description: "Roles: Producer, Director, Camera Programmer, UI Programmer. \n\nAs a class of 15 people and 4 months of development, we created an amazing experience that was nominated at Indie Dev Day 2026 in Barcelona. We considered it a huge win given that we were competing against bigger, more experienced teams, all while being the only ones developing our own engine for the game using Open GL and ImGui.",
       media: { type: "youtube", src: "kG2pwS_ptjM", alt: "Release Trailer Video" },
       link: { label: "Play on itch.io", url: "https://mini-knight-studio.itch.io/fable-of-the-eclipse" }
     },
     {
       title: "Pokemon Pinball",
-      subtitle: "Done with SDL · Physics Module using Box 2D · Team of 4 · 2024",
+      subtitle: "C++ · SDL · Physics Module using Box 2D · Team of 4 · 2024",
       description: "Roles: Programmer & Designer \n\nWhile doing physics in our game development degree, we made a recreation of Pokemon Pinball. The project was done in C++, using both SDL and a physics module we made ourselves which uses Box 2D.",
       media: { type: "youtube", src: "DyDAaRAgE8Q", alt: "Gameplay Video" },
     },
     {
-      title: "Project name three",
-      subtitle: "Godot · Game jam",
-      description: "Replace this text.",
-      media: { type: "image", src: "", alt: "" }
+      title: "The Record Of Lies: Crown's Formation",
+      subtitle: "C++ · SDL · Team of 4 · 2024",
+      description: "Roles: Programmer, Designer, Writer. \n\n.To expand our knowledge in SDL and C++ our degree tested us by having to create a game that has an original modularity that pushes our limits, in this case, we chose narrative. Specifically, we developed a 2D RPG that uses a narrative interface with nodes that stores all the ramified dialogues in .json and later the game reads them to provide an immersive storytelling we also wrote on our own.",
+      media: { type: "youtube", src: "gEqkvucs0xE", alt: "Gameplay Video" },
     }
   ],
 
   unity: [
+    {
+      title: "Multiplayer Simulator (Lobby & Scenes)",
+      subtitle: "Multiplayer · Custom Net-Code · Team of 4 · 2026",
+      description: "Roles: Game Loop Programming, Interactable Objects Programming, Ping Programming, Kick Commands Programming. \n\nOn the Network & Multiplayer Games subject in our degree, we made an implementation of the teached concepts, even though we used Unity for the Game Simulator, we did not use any of the network helpers from Unity and we programmed them ourselves to better learn the concepts.",
+      media: { type: "youtube", src: "n-9HEO0h5oY", alt: "Recorded with a single computer." }
+    },
     {
       title: "Poke AR",
       subtitle: "Augmented Reality · Team of 4 · 2026",
@@ -80,6 +86,12 @@ window.PROJECTS = {
       subtitle: "C++ · SDL · Physics Module using Box 2D · Team of 4 · 2024",
       description: "Roles: Programmer & Designer \n\nWhile doing physics in our game development degree, we made a recreation of Pokemon Pinball. The project was done in C++, using both SDL and a physics module we made ourselves which uses Box 2D.",
       media: { type: "youtube", src: "DyDAaRAgE8Q", alt: "Gameplay Video" },
+    },
+    {
+      title: "The Record Of Lies: Crown's Formation",
+      subtitle: "C++ · SDL · Team of 4 · 2024",
+      description: "Roles: Programmer, Designer, Writer. \n\n.To expand our knowledge in SDL and C++ our degree tested us by having to create a game that has an original modularity that pushes our limits, in this case, we chose narrative. Specifically, we developed a 2D RPG that uses a narrative interface with nodes that stores all the ramified dialogues in .json and later the game reads them to provide an immersive storytelling we also wrote on our own.",
+      media: { type: "youtube", src: "gEqkvucs0xE", alt: "Gameplay Video" },
     }
   ],
 };
