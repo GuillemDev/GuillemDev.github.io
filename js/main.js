@@ -4,7 +4,7 @@
   const here = location.pathname.split("/").pop() || "index.html";
   const pages = [
     ["index.html", "Home"], ["top-projects.html", "Top 3 Projects"], ["unity.html", "Unity Projects"],
-    ["unreal.html", "Unreal Engine Projects"], ["godot.html", "Godot Projects"]
+    ["unreal.html", "Unreal Engine Projects"], ["godot.html", "Godot Projects"], ["custom.html", "Custom Engine Projects"]
   ];
 
   const nav = document.getElementById("nav");

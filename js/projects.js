@@ -69,6 +69,15 @@ window.PROJECTS = {
     }
   ],
 
+  custom: [
+    {
+      title: "Custom engine project title",
+      subtitle: "Short line about it",
+      description: "Describe the project here: language, what the engine does, your role.",
+      media: { type: "image", src: "", alt: "" }
+    }
+  ],
+
   /* Used only by guide.html as a live example. */
   example: [
     {
