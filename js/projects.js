@@ -4,14 +4,14 @@
    ============================================================ */
 
 window.SITE = {
-  name: "Your Name",
-  tagline: "Game developer. Programming and design today, cinematics tomorrow.",
-  about: "Write two or three sentences about yourself here: who you are, what you build and why cinematics are your next goal.",
-  email: "you@example.com",
+  name: "Guillem Martínez Aparicio",
+  tagline: "Programmer and Designer striving to specialise in cinematics.",
+  about: "Play and responsibility are two sides of the same coin.\nFinding or creating an environment where both are integrated is always my ultimate goal.",
+  email: "guillem.ma.dev@gmail.com",
   links: [
-    { label: "GitHub", url: "https://github.com/your-user" },
-    { label: "LinkedIn", url: "https://linkedin.com/in/your-user" },
-    { label: "itch.io", url: "https://your-user.itch.io" }
+    { label: "GitHub", url: "https://github.com/GuillemDev" },
+    { label: "LinkedIn", url: "https://linkedin.com/in/guillem-martinez-aparicio" },
+    { label: "itch.io", url: "https://guillemdev.itch.io" }
   ]
 };
 
@@ -22,15 +22,15 @@ window.PROJECTS = {
 
   top3: [
     {
-      title: "Project name one",
-      subtitle: "Unity · Solo · 2025",
-      description: "What the game is, what you did on it, and what you learned.\n\nA blank line starts a new paragraph.",
-      media: { type: "image", src: "", alt: "Gameplay screenshot of project one" },
-      link: { label: "Play on itch.io", url: "https://your-user.itch.io/project" }
+      title: "Fable Of The Eclipse",
+      subtitle: "Nominee Best Academic Game at Indie Dev Day · Custom Engine · Class Project · 2026",
+      description: "As a class of 15 people and 4 months of development, we created an amazing experience that was nominated at Indie Dev Day 2026 in Barcelona. We considered it a huge win given that we were competing against bigger, more experienced teams, all while being the only ones developing our own engine for the game.",
+      media: { type: "youtube", src: "kG2pwS_ptjM", alt: "Release Trailer Video" },
+      link: { label: "Play on itch.io", url: "https://mini-knight-studio.itch.io/fable-of-the-eclipse" }
     },
     {
       title: "Project name two",
-      subtitle: "Unreal Engine · Team of 4",
+      subtitle: "Custom Engine · Team of 4",
       description: "Replace this text. Mention your role: programming, design, cinematics...",
       media: { type: "image", src: "", alt: "" }
     },
