@@ -65,3 +65,5 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:.5rem 2rem;justify-content:space-be
 footer a{color:var(--paper)}
 
 @media(prefers-reduced-motion:reduce){.hero::before,.hero::after{animation:none;height:11%}html{scroll-behavior:auto}}
+
+.about p{white-space:pre-line}
