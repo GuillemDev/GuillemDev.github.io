@@ -37,13 +37,13 @@ window.PROJECTS = {
   unity: [
     {
       title: "Poke AR",
-      subtitle: "Augmented Reality · Team of 4" · 2026,
+      subtitle: "Augmented Reality · Team of 4 · 2026",
       description: "Roles: Pokeball Mechanic Design & Programming, Plane Detection Programming. \n\nThis project is a recreation of a Pokédex but with the turn that we use Unity AR Foundations to provoke the feeling that instead of a mobile phone, you have a device from the Pokemon world. The aim was learning about the implementations of AR while doing a game that detects real cards like in Invizimals, all within the Pokemon world.",
       media: { type: "youtube", src: "ctDrizS42F0", alt: "Guide-through recorded in vertical format." }
     },
     {
       title: "Punch Them All",
-      subtitle: "Virtual Reality · Team of 3" · 2026,
+      subtitle: "Virtual Reality · Team of 3 · 2026",
       description: "Roles: Game Loop Programming, Integrated UI Design & Programming. \n\nThis project is a recreation of a game mode inside Wii Sports but in VR. The objective of the game is to destroy as many punching bags as possible before running out of time. All, with our little touch of personalization.",
       media: { type: "youtube", src: "4vkUoSXss8c", alt: "Gameplay recorded in Meta Quest 2 glasses." }
     }
@@ -77,7 +77,7 @@ window.PROJECTS = {
     },
     {
       title: "Pokemon Pinball",
-      subtitle: "Done with SDL · Physics Module using Box 2D · Team of 4 · 2024",
+      subtitle: "C++ · SDL · Physics Module using Box 2D · Team of 4 · 2024",
       description: "Roles: Programmer & Designer \n\nWhile doing physics in our game development degree, we made a recreation of Pokemon Pinball. The project was done in C++, using both SDL and a physics module we made ourselves which uses Box 2D.",
       media: { type: "youtube", src: "DyDAaRAgE8Q", alt: "Gameplay Video" },
     }
