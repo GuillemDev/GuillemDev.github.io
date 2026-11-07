@@ -44,10 +44,16 @@ window.PROJECTS = {
 
   unity: [
     {
-      title: "Unity project title",
-      subtitle: "Short line about it",
-      description: "Describe the project here.",
-      media: { type: "image", src: "", alt: "" }
+      title: "Poke AR",
+      subtitle: "Augmented Reality · Team of 4" · 2026,
+      description: "Roles: Pokeball Mechanic Design & Programming, Plane Detection Programming. \n\nThis project is a recreation of a Pokédex but with the turn that we use Unity AR Foundations to provoke the feeling that instead of a mobile phone, you have a device from the Pokemon world. The aim was learning about the implementations of AR while doing a game that detects real cards like in Invizimals, all within the Pokemon world.",
+      media: { type: "youtube", src: "ctDrizS42F0", alt: "Guide-through recorded in vertical format." }
+    }
+    {
+      title: "Punch Them All",
+      subtitle: "Virtual Reality · Team of 3" · 2026,
+      description: "Roles: Game Loop Programming, Integrated UI Design & Programming, Plane Detection Programming. \n\nThis project is a recreation of a Pokédex but with the turn that we use Unity AR Foundations to provoke the feeling that instead of a mobile phone, you have a device from the Pokemon world. The aim was learning about the implementations of AR while doing a game that detects real cards like in Invizimals, all within the Pokemon world.",
+      media: { type: "youtube", src: "4vkUoSXss8c", alt: "Gameplay recorded in Meta Quest 2 glasses." }
     }
   ],
 
