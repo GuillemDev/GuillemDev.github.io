@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to fill this portfolio</title>
+<meta name="description" content="Game developer portfolio: programming, design and cinematics.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=Newsreader:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header id="nav"></header>
+<main class="guide">
+  <div class="page-head wrap"><h1>How to fill this portfolio</h1>
+  <p>You don't need to touch the HTML. Every text, image and video lives in one file: <code>js/projects.js</code>. You can delete this page when you're done (and remove <code>guide.html</code> from the repository).</p></div>
+  <div class="wrap">
+
+  <section><h2>1. Your name, intro and links</h2>
+  <p>At the top of <code>js/projects.js</code> is the <code>SITE</code> block. Change the text between the quotes.</p>
+<pre><code>window.SITE = {
+  name: "Your Name",
+  tagline: "One line that sells you.",
+  about: "Two or three sentences about you.",
+  email: "you@example.com",
+  links: [ { label: "GitHub", url: "https://github.com/your-user" } ]
+};</code></pre></section>
+
+  <section><h2>2. A project module</h2>
+  <p>Each project is one block like the one below. This is what it looks like once rendered:</p></div>
+  <div id="modules" data-list="example"></div>
+  <div class="wrap"><p>And this is the code that produced it:</p>
+<pre><code>{
+  title: "Title of the project",
+  subtitle: "Subtitle: engine, role, year",
+  description: "First paragraph.\n\nSecond paragraph.",
+  media: { type: "image", src: "assets/images/my-game.jpg", alt: "What the image shows" },
+  link: { label: "Play on itch.io", url: "https://..." }   // optional
+},</code></pre>
+  <ul>
+    <li>Blocks are separated by a comma. Missing commas or quotes are the most common errors.</li>
+    <li>To add a project, copy a whole block <code>{ ... },</code> and paste it in the list you want. To remove one, delete its block.</li>
+    <li>Modules show in the same order you write them.</li>
+    <li>For a line break use <code>\n\n</code> inside the description (it creates a new paragraph).</li>
+  </ul></section>
+
+  <section><h2>3. Images</h2>
+  <ol>
+    <li>Put the file in the <code>assets/images/</code> folder (JPG, PNG or WebP; under 500 KB each is ideal).</li>
+    <li>Use simple names: lowercase, no spaces, e.g. <code>my-game.jpg</code>.</li>
+    <li>Reference it:</li>
+  </ol>
+<pre><code>media: { type: "image", src: "assets/images/my-game.jpg", alt: "Short description" }</code></pre>
+  <p>The frame is widescreen (2.39:1, like a cinema film). Wide images look best; others are cropped to fit.</p></section>
+
+  <section><h2>4. Videos</h2>
+  <p><strong>Option A: YouTube (recommended).</strong> Upload to YouTube (unlisted works). From the link <code>https://www.youtube.com/watch?v=<b>dQw4w9WgXcQ</b></code> copy only the code after <code>v=</code>:</p>
+<pre><code>media: { type: "youtube", src: "dQw4w9WgXcQ" }</code></pre>
+  <p><strong>Option B: a video file.</strong> Put an MP4 (H.264) in <code>assets/videos/</code>. GitHub rejects files over 100 MB and recommends repositories under 1 GB, so keep clips short and compressed.</p>
+<pre><code>media: { type: "video", src: "assets/videos/my-trailer.mp4", poster: "assets/images/my-trailer-cover.jpg" }</code></pre></section>
+
+  <section><h2>5. Which list is which page?</h2>
+  <ul>
+    <li><code>top3</code> is the page <b>Top 3 Projects</b></li>
+    <li><code>unity</code> is the page <b>Unity Projects</b></li>
+    <li><code>unreal</code> is the page <b>Unreal Engine Projects</b></li>
+    <li><code>godot</code> is the page <b>Godot Projects</b></li>
+  </ul></section>
+
+  <section><h2>6. Check your changes</h2>
+  <p>Edit the file on GitHub (pencil icon), commit it, and wait 1 to 2 minutes. Then refresh your site with Ctrl+F5. If a page looks empty, there is probably a missing comma or quote in <code>projects.js</code>: press F12 in the browser and look at the Console for the line number.</p></section>
+  </div>
+</main>
+<footer id="footer"></footer>
+<script src="js/projects.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
