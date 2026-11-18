@@ -75,7 +75,7 @@ window.PROJECTS = {
       title: "Research Work",
       subtitle: "Research · Team of 2 · GDScript · Godot V3 · 2021",
       description: "As a research work for highschool we chose to look up for optimization methods used in videogame development. At that time we looked up for two different methods in which we tested the computer performance to see the difference: Experiment 1: Loading and unloading regions of a map when the character is out of them. Experiment 2: Hiding and pausing the render of entities that exit the screen.",
-      media: { type: "image", src: "assets/images/tr-experiment.png", alt: "Experiment Showcase" }
+      media: { type: "image", src: "assets/images/tr-experiment.png.png", alt: "Experiment Showcase" }
     }
   ],
 
