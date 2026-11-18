@@ -67,15 +67,15 @@ window.PROJECTS = {
   godot: [
     {
       title: "Ninja Bros",
-      subtitle: "First Project Ever · Single Dev · GD Script · Godot V3 · 2020",
-      description: "As my first ever introduction to the world of both game development and coding, discarding scratch, I did a project test based on the learnings of youtube videos. At that time it took me 6 months to accomplish. Though it ended up in a product with many bugs, I was able to explore many of the systems inside godot and figured out to do a 3 level platformer game with a boss and a screen system that allowed to restart from the level you were in upon death.",
+      subtitle: "First Project Ever · Single Dev · GDScript · Godot V3 · 2020",
+      description: "As my first ever introduction to the world of both game development and coding, discarding scratch, I did a project test based on the learnings of youtube videos. At that time it took me 6 months to accomplish. Though it ended up in a product with many bugs, I was able to explore many of the systems inside godot and figured out how to make a 3-level platformer game with a boss and a screen system that allowed to restart from the level you were in upon death.",
       media: { type: "youtube", src: "qwnD5zJ1Oz4", alt: "Project Showcase" }
     },
     {
       title: "Research Work",
-      subtitle: "Research · Team of 2 · GD Script · Godot V3 · 2021",
-      description: "As a research work for highschool we chose to look up for optimization methods used in videogame development. At that time we looked up for two different methods in which we tested the computer perfomance to see the difference: Experiment 1, which consisted on loading and unloading regions of a map when the character is out of them. Experiment 2: Hiding and pausing the render of entities that exit the screen.",
-      media: { type: "image", src: "assets/images/TR Experiment.png", alt: "Experiment Showcase" }
+      subtitle: "Research · Team of 2 · GDScript · Godot V3 · 2021",
+      description: "As a research work for highschool we chose to look up for optimization methods used in videogame development. At that time we looked up for two different methods in which we tested the computer performance to see the difference: Experiment 1: Loading and unloading regions of a map when the character is out of them. Experiment 2: Hiding and pausing the render of entities that exit the screen.",
+      media: { type: "image", src: "assets/images/tr-experiment.png", alt: "Experiment Showcase" }
     }
   ],
 
